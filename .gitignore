@@ -14,6 +14,7 @@ npm-debug.*
 
 # jest
 __snapshots__/*
+**/__snapshots__/*
 
 # logs
 logs
