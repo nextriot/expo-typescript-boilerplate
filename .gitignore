@@ -10,7 +10,7 @@ npm-debug.*
 *.mobileprovision
 
 #.env
-.en
+.env
 
 # jest
 __snapshots__/*
