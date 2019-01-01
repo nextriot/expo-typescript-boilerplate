@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-airbnb",
+    "tslint-config-prettier",
+    "tslint-react"
+  ],
+  "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+  "rules": {
+    "no-any": true,
+    "interface-name": false,
+    "prefer-array-literal": [true, { "allow-type-parameters": true }],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "semicolon": [true, "never"],
+    "quotemark": [true, "single", "jsx-double"],
+    "arrow-return-shorthand": [true, "multiline"],
+    "no-implicit-dependencies": [true, "dev"],
+    "object-literal-sort-keys": false,
+    "import-name": false,
+    "react-unused-props-and-state": [
+      true,
+      { "props-interface-regex": "Props$", "state-interface-regex": "State$" }
+    ],
+    "ordered-imports": false,
+    "member-ordering": false,
+    "jsx-no-lambda": false,
+    "jsx-boolean-value": false,
+    "jsx-wrap-multiline": true,
+    "no-unused-variable": true
+  }
+}
